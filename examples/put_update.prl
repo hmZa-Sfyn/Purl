@@ -1,0 +1,12 @@
+req-put https://jsonplaceholder.typicode.com/posts/1
+/payload
+{
+  "id": 1,
+  "title": "Updated Post",
+  "body": "This post has been updated.",
+  "userId": 1
+}
+/headers
+{
+  "Authorization": "Bearer dummy_token"
+}

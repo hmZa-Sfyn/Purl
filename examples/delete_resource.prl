@@ -1,0 +1,5 @@
+req-delete https://jsonplaceholder.typicode.com/posts/1
+/headers
+{
+  "Authorization": "Bearer dummy_token"
+}

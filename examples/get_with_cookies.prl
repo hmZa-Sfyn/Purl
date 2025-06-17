@@ -1,0 +1,6 @@
+req-get https://jsonplaceholder.typicode.com/users
+/cookies
+{
+  "user_id": "12345",
+  "token": "auth_token_6789"
+}

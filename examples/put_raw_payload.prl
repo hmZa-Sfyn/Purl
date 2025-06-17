@@ -1,0 +1,12 @@
+# PUT request with a raw string payload
+req-put https://jsonplaceholder.typicode.com/posts/1
+/payload
+title=Raw%20Updated%20Post&body=This%20is%20a%20raw%20payload
+/cookies
+{
+  "session": "raw_session"
+}
+/headers
+{
+  "Content-Type": "application/x-www-form-urlencoded"
+}

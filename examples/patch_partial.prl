@@ -1,0 +1,7 @@
+req-patch https://jsonplaceholder.typicode.com/posts/1
+/payload
+{
+  "title": "Partially Updated Title"
+}
+/cookies
+session=xyz789

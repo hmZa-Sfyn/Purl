@@ -1,0 +1,15 @@
+req-post https://jsonplaceholder.typicode.com/posts
+/payload
+{
+  "title": "Comprehensive Post",
+  "body": "This post includes all options.",
+  "userId": 2
+}
+/cookies
+session=full_example
+user=example_user
+/headers
+{
+  "Content-Type": "application/json",
+  "X-Custom-Header": "CustomValue"
+}
